@@ -1,0 +1,32 @@
+.home {
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+}
+
+@media(max-width:1328px) {
+    .home {
+        max-width: 1328px;
+    }
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+}
+
+.featured .featured-title {
+    margin-top: 40px;
+    padding: 0 22px 16px;
+}
+
+.featured .featured-title span {
+    font-size: 24px;
+    line-height: 1.2;
+    color: #333;
+}
+.featured .featured-title .bolder {
+    font-weight: 800;
+}

@@ -1,0 +1,33 @@
+.m25 {
+  margin: 25px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.qty {
+  display: inline;
+  padding: 10;
+  margin: 10;
+}
+
+form > .row {
+  margin: 0px;
+}
+
+form > .row {
+  margin: 0px;
+}
+
+form > .p15 {
+  padding: 15px;
+}
+
+.cartTitle {
+  display: inline;
+}
+
+.cartContinueShop {
+  float: right;
+}

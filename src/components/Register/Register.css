@@ -1,0 +1,56 @@
+
+.register {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.registerContainer { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registerContainer .regis {
+    display: grid;
+    margin: 10px;
+    padding: 30px;
+    gap: 20px;
+    border: 1px solid #eceeee;
+    margin-top: 15px;
+}
+
+.registerContainer .logo img {
+    height: 30px;
+}
+
+.registerContainer .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.registerContainer input {
+    width: 250px;
+    height: 30px;
+    padding: 3px 5px;
+}
+
+.registerContainer .reg {
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #bc002d;
+}
+
+.registerContainer .regButton {
+    display: flex;
+    justify-content: space-between;
+}

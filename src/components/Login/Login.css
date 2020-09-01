@@ -1,0 +1,68 @@
+
+.login {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginContainer { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginContainer .signin {
+    display: grid;
+    margin: 10px;
+    padding: 30px;
+    gap: 20px;
+    border: 1px solid #eceeee;
+    margin-top: 15px;
+}
+
+.loginContainer .logo img {
+    height: 30px;
+}
+
+.loginContainer .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.loginContainer input {
+    width: 250px;
+    height: 30px;
+    padding: 3px 5px;
+}
+
+.loginContainer .loginButton {
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #bc002d;
+}
+
+.loginContainer .signButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginContainer .goregister {
+    color: #0066c0;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    padding: 3px 5px;
+}
+
+.loginContainer .goregister:hover {
+    background-color: #eceeee;
+}

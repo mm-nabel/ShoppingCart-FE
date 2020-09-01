@@ -1,0 +1,158 @@
+header {
+  height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #eae8e4;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+header .left #logo {
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 2vw;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header .left {
+  /* border-right: 1px solid #eae8e4; */
+  -webkit-box-flex: 0;
+  flex: 0 0 calc(50% - 50px);
+  max-width: calc(50% - 50px);
+  box-sizing: border-box;
+  position: relative;
+}
+
+header .middle {
+  -webkit-box-flex: 0;
+  flex: 0 0 100px;
+  max-width: 100px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+header .right {
+  display: flex;
+  /* border-left: 1px solid #eae8e4; */
+  flex-grow: 0;
+  align-items: center;
+  justify-content: space-around;
+  /* flex-shrink: 0; */
+  flex-basis: calc(50% - 50px);
+}
+
+header .left #menuVeloce {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 32px;
+}
+
+header .left #menuVeloce ul li {
+  display: inline-block;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin-bottom: 0 !important;
+}
+
+header .right #menuVeloceR {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 32px;
+}
+
+header .right #menuVeloceR ul li {
+  display: inline-block;
+}
+
+header #menuVeloce ul li a {
+  font-family: "GT America Medium";
+  font-size: 1rem;
+  color: #000;
+  text-transform: uppercase;
+  margin-left: 32px;
+  text-decoration: none;
+}
+
+header #menuVeloceR ul li a {
+  font-family: "GT America Medium";
+  font-size: 1rem;
+  color: #000;
+  text-transform: uppercase;
+  margin-left: 32px;
+  text-decoration: none;
+}
+.searchon {
+  line-height: 1.6em;
+  padding: 6px 12px;
+}
+
+@media print {
+  .noprint {
+    visibility: hidden;
+  }
+}
+
+.menu_input > input {
+  border: 0;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 0.5rem;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 13vw;
+  border-bottom: 1px solid #000;
+}
+
+header .right #shoppingMenu {
+  /* position: absolute;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 2vw;
+  z-index: 5; */
+}
+
+header .right #shoppingMenu ul li a {
+  font-family: "GT America Medium";
+  font-size: 1rem;
+  color: #000;
+  text-transform: uppercase;
+  margin-left: 32px;
+  text-decoration: none;
+  position: relative;
+}
+
+header .right #shoppingMenu ul li {
+  display: inline-block;
+}
+
+.fa-shopping-bag:before {
+  content: "\f290";
+}
+.fa-sign-in-alt:before {
+  content: "\f2f6";
+}
+
+.fa-search:before {
+  content: "\f002";
+}

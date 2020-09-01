@@ -1,0 +1,33 @@
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.category-field {
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    padding: .4rem 0.8rem;
+    border: 1px solid #d5d8db;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #fff;
+    margin-right: .8rem;
+    font-size: 14px;
+}
+
+.category-field:hover {
+    border-color: #515253;
+}
+
+.searchClass {
+    background-color: #53A312;
+    color: white;
+}
+.searchClass:hover {
+    background-color: #407c10;
+}
